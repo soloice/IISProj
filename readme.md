@@ -11,7 +11,7 @@ This project aims to focus on ElGamal Encryption System.
     - Pohlig-Hellman Algorithm
 
 
-- ntbasic.py: Basic functions for Number Theory, such as greatest common divisor, Miller-Rabin Primality Test, etc.
+- ntbasic.py: Basic functions for Number Theory, such as Miller-Rabin Primality Test.
 - elgamal.py: Implements of ElGamal encryption and decryption, and ElGamal key cracker(Discrete Logarithm Problem Solver).
 - demo.py: You may want to run this file to make out all things we can do.
 - leveltest.py: Test file for crack algorithms for different difficulty level.
