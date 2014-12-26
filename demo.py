@@ -36,14 +36,14 @@ key = ElGamalKey(2579, 2, 765, 949)  #generatea a new key
 key.show()
 
 
-# # repeat 5 times
-# for i in xrange(5):
-#     plain = input("please input plaintext x(x<2579):")
-#     #repeat 5 times
-#     for j in xrange(5):
-#         cipher = key.encrypt(plain)
-#         deciphered = key.decrypt(cipher)
-#         print "plaintext, cipher, deciphered = ", plain, cipher, deciphered
+# repeat 5 times
+for i in xrange(5):
+    plain = input("please input plaintext x(x<2579):")
+    #repeat 5 times
+    for j in xrange(5):
+        cipher = key.encrypt(plain)
+        deciphered = key.decrypt(cipher)
+        print "plaintext, cipher, deciphered = ", plain, cipher, deciphered
 
 
 key = ElGamalKey(1196545829632411, 2, 931336951895464, 112946787244369)

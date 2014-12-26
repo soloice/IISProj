@@ -5,7 +5,7 @@ from ntbasic import *
 
 class ElGamalKey:
     
-    SMOOTH = 10**14     # bound for smooth numbers
+    SMOOTH = 10**15     # bound for smooth numbers
 
     def __init__(self, p_, alpha_, a_, beta_):
         self.p, self.alpha, self.a, self.beta = p_, alpha_, a_, beta_
@@ -83,7 +83,7 @@ class ElGamalKey:
 class ElGamalCracker:
 
 
-    SMOOTH = 10**14
+    SMOOTH = 2 * 10**15
 
     """ Shanks Algorithm:
     alpha^x = alpha^(i*m + j) = beta

@@ -39,3 +39,4 @@ myfile = open("time.csv", "w")
 myfile.write("Level, Pohlig-Hellman, Shanks, Pollard-Rho\n")
 for i in range(len(levels)):
     myfile.write(','.join(map(str, [levels[i], timephList[i], timeshList[i], timeprList[i]])) + '\n')
+myfile.close()
